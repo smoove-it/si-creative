@@ -1,4 +1,4 @@
-package de.smooveit.derenix.siCreative;
+package de.smooveit.derenix.siCreative.Listener;
 
 import org.bukkit.block.*;
 import org.bukkit.ChatColor;
@@ -9,6 +9,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockDamageEvent;
 import org.bukkit.event.block.BlockListener;
+
+import de.smooveit.derenix.siCreative.SiCreativeMain;
 
 public class SiBlockListener extends BlockListener {
 

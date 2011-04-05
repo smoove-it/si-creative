@@ -1,8 +1,10 @@
-package de.smooveit.derenix.siCreative;
+package de.smooveit.derenix.siCreative.Listener;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityListener;
+
+import de.smooveit.derenix.siCreative.SiCreativeMain;
 
 public class SiEntityListener extends EntityListener
 {

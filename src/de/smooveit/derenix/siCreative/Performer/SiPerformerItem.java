@@ -1,6 +1,8 @@
-package de.smooveit.derenix.siCreative;
+package de.smooveit.derenix.siCreative.Performer;
 
 import org.bukkit.entity.Player;
+
+import de.smooveit.derenix.siCreative.SiCreativeMain;
 
 public class SiPerformerItem extends SiPerformer {
 
