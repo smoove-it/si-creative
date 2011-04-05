@@ -37,18 +37,6 @@ public class SiCreativeMain extends JavaPlugin {
 		logServer( "Version " + pdFile.getVersion() + " is enabled!" );
 	}
 	
-	public boolean onCommand( CommandSender cs, Command c, String commandLabel, String[] args )
-	{
-		logServer( "command: " + c.getName() );
-		if( c.getName().equals("gott") && cs.isOp() )
-		{
-			gods.put((Player)cs, true);
-			return true;
-		}
-		
-		return false;
-	}
-	
 	public void logServer( String message )
 	{
 		System.out.println( "[siCreative] " + message );
