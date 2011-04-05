@@ -2,6 +2,7 @@ package de.smooveit.derenix.siCreative;
 
 import java.util.HashMap;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -42,14 +43,11 @@ public class SiCreativeMain extends JavaPlugin {
 		System.out.println( "[siCreative] " + message );
 	}
 	
-	public void deregisterEvents()
+	public void broadcastMessage( String message )
 	{
-		
+		broadcastMessage( ChatColor.RED + "[ACHTUNG ACHTUNG] " + message );
 	}
 
 	@Override
-	public void onDisable()
-	{
-		deregisterEvents();
-	}
+	public void onDisable() {}
 }
